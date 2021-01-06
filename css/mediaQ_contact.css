@@ -1,0 +1,143 @@
+@media all and (max-width: 480px) {
+    /* NavBar */
+    .my_nav {
+        display: none;
+    }
+    header {
+        display: flex;
+        justify-content: center;
+        height: 110px;
+    }
+
+    /* Bannière */
+    .banner_title {
+        height: 220px;
+        margin-bottom: 2%;
+    }
+    .banner_title p:first-child {
+        font-size: 18px;
+        align-self: center
+    }
+    .banner_title p:nth-child(2) {
+        font-size: 26px;
+    }
+
+    /* Partie "Nous Contacter" */
+    fieldset legend {
+        font-size: 34px;
+        margin-bottom: 3%;
+    }
+    .info {
+        width: 95%;
+        justify-content: space-between;
+    }
+    .info label {
+        font-size: 20px;
+    }
+    .info input {
+        width: 85%;
+        margin-top: 3%;
+    }
+    .button_up {
+        margin-top: 10%;
+    }
+    .objet select, .message textarea {
+        width: 92%;
+    }
+    .map {
+        width: 100%;
+    }
+    .button {
+        width: 155px;
+        height: 50px;
+    }
+}
+@media all and (min-width: 480px) and (max-width: 768px) {
+    /* NavBar */
+    .my_nav {
+        display: none;
+    }
+    header {
+        display: flex;
+        justify-content: center;
+        height: 110px;
+    }
+
+    /* Bannière */
+    .banner_title {
+        height: 270px;
+        margin-bottom: 0;
+    }
+    .banner_title p:first-child {
+        font-size: 24px;
+    }
+    .banner_title p:nth-child(2) {
+        font-size: 34px;
+    }
+
+    /* Partie "Nous Contacter" */
+    fieldset legend {
+        font-size: 34px;
+        margin-bottom: 2%;
+    }
+    .info label {
+        font-size: 18px;
+    }
+    .info {
+        width: 90%;
+        justify-content: space-between;
+    }
+    .info input {
+        width: 90%;
+        margin-top: 3%;
+    }
+    .objet label, .message label {
+        font-size: 21px;
+    }
+    .objet select, .message textarea {
+        width: 92%;
+    }
+    .objet {
+        margin-bottom: 0;
+    }
+    .map {
+        width: 100%;
+    }
+    .button {
+        width: 155px;
+        height: 50px;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 1200px) {
+    /* NavBar */
+    .my_collapse {
+        display: none;
+    }
+
+    /* Bannière */
+    .banner_title {
+        height: 390px;
+        margin-bottom: 25px;
+    }
+    .banner_title p:nth-child(2) {
+        font-size: 47px;
+    }
+
+    /* Partie "Nous Contacter" */
+    .info input {
+        width: 90%;
+        margin-top: 3%;
+    }
+    .objet select, .message textarea {
+        width: 82%;
+    }
+}
+@media all and (min-width: 1200px) {
+    /* NavBar */
+    .my_collapse {
+        display: none;
+    }
+    .objet select, .message textarea {
+        width: 82%;
+    }
+}

@@ -58,7 +58,7 @@ nav {
 .my_nav {
     display: flex;
     justify-content: space-between;
-    margin-right: 2%;
+    margin-right: 4%;
 }
 
 .my_nav a {

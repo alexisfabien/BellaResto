@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang='fr'>
-    <head>
+    <head> <!-- Titre de la page / Métas / Links -->
         <title> Restaurant Bella Olonje</title>
         <meta charset='utf-8'>
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel='stylesheet' href='css/style_grid.css' type='text/css'>
-        <link rel="stylesheet" href="css/mediaqueries.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css"> <!--CSS BootStrap-->
+        <link rel='stylesheet' href='css/style_grid.css' type='text/css'> <!--My CSS-->
+        <link rel="stylesheet" href="css/mediaqueries.css"> <!--CSS MediaQuery-->
     </head>
     <body>
-        <header>
-            <img src="Images/BellaOlonje_logo.png" alt="image">
-            <nav>
+        <header> <!-- En-tête / NavBar -->
+            <img src="Images/BellaOlonje_logo.png" alt="image"> <!-- Logo -->
+            <nav> <!-- Navbar -->
                 <div class="my_nav">
                     <a href="#home">Home</a>
                     <a href="#pizza">Pizza</a>
@@ -20,13 +20,14 @@
                 </div>
             </nav>
         </header>
-        <div class="container my_collapse">
+        <div class="container my_collapse"> <!-- Collapse pour le responsive (bouton Menu) -->
             <div class="">
-                <a class="btn my_button_menu" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                <a class="btn my_button_menu" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"> <!-- Bouton -->
                     Menu
                 </a>
-                <div class="collapse" id="collapseExample">
+                <div class="collapse" id="collapseExample"> <!-- Liste du menu -->
                     <div class="card card-body my_list_menu">
+                        <a href="#">Home</a><br>
                         <a href="#pizza">Pizza</a><br>
                         <a href="#burgers">Burgers</a><br>
                         <a href="#salade">Salades</a><br>
@@ -35,14 +36,14 @@
                 </div>
             </div>
         </div>
-        <div class="banner_title">
+        <div class="banner_title"> <!-- Bannière -->
             <p>Food App</p>
             <p>Chez Bella <br> chaque désir s'additionne.</p>
         </div>
-        <main id="container">
-            <section id="pizza" class="container-fluid">
+        <main id="container"> <!-- Corps de la page -->
+            <section id="pizza" class="container-fluid"> <!-- Partie "pizza"-->
                 <h1>Nos Pizzas</h1>
-                <article class="article1">
+                <article class="article1"> <!-- Article 1 -->
                     <img src="Images/pizza.png" class="img-fluid" alt="image">
                     <div class="info_content">
                         <p>Pizza 4 Fromages</p>
@@ -50,7 +51,7 @@
                     </div>
                     <button><a href="form.html"> Buy </a></button>
                 </article>
-                <article class="article2">
+                <article class="article2"> <!-- Article 2 -->
                     <img src="Images/pizza.png" class="img-fluid" alt="image">
                     <div class="info_content">
                         <p>Pizza 4 Fromages</p>
@@ -58,7 +59,7 @@
                     </div>
                     <button><a href="form.html"> Buy </a></button>
                 </article>
-                <article class="article3">
+                <article class="article3"> <!-- Article 3 -->
                     <img src="Images/pizza.png" class="img-fluid" alt="image">
                     <div class="info_content">
                         <p>Pizza 4 Fromages</p>
@@ -68,9 +69,9 @@
                 </article>
             </section>
             <hr/>
-            <section id="burgers" class="container-fluid">
+            <section id="burgers" class="container-fluid"> <!-- Partie "burger"-->
                 <h1>Nos Burgers</h1>
-                <article class="article1">
+                <article class="article1"> <!-- Article 1 -->
                     <img src="Images/burger.png" class="img-fluid" alt="image">
                     <div class="info_content">
                         <p>Burger d'avocat</p>
@@ -78,7 +79,7 @@
                     </div>
                     <button><a href="form.html"> Buy </a></button>
                 </article>
-                <article class="article2">
+                <article class="article2"> <!-- Article 2 -->
                     <img src="Images/burger.png" class="img-fluid" alt="image">
                     <div class="info_content">
                         <p>Burger d'avocat</p>
@@ -86,7 +87,7 @@
                     </div>
                     <button><a href="form.html"> Buy </a></button>
                 </article>
-                <article class="article3">
+                <article class="article3"> <!-- Article 3 -->
                     <img src="Images/burger.png" class="img-fluid" alt="image">
                     <div class="info_content">
                         <p>Burger d'avocat</p>
@@ -96,9 +97,9 @@
                 </article>
             </section>
             <hr/>
-            <section id="salade" class="container-fluid">
+            <section id="salade" class="container-fluid"> <!-- Partie "salade" -->
                 <h1>Nos Salades</h1>
-                <article class="article1">
+                <article class="article1"> <!-- Article 1 -->
                     <img src="Images/salade.png" class="img-fluid" alt="image">
                     <div class="info_content">
                         <p>Salade césar</p>
@@ -106,7 +107,7 @@
                     </div>
                     <button><a href="form.html"> Buy </a></button>
                 </article>
-                <article class="article2">
+                <article class="article2"> <!-- Article 2 -->
                     <img src="Images/salade.png" class="img-fluid" alt="image">
                     <div class="info_content">
                         <p>Salade césar</p>
@@ -114,7 +115,7 @@
                     </div>
                     <button><a href="form.html"> Buy </a></button>
                 </article>
-                <article class="article3">
+                <article class="article3"> <!-- Article 3 -->
                     <img src="Images/salade.png" class="img-fluid" alt="image">
                     <div class="info_content">
                         <p>Salade césar</p>
@@ -123,15 +124,15 @@
                     <button><a href="form.html"> Buy </a></button>
                 </article>
             </section>
-            <div class="final_text">
+            <div class="final_text"> <!-- Texte "Problem solved" -->
                 <h2>Problem solved</h2>
                 <p>After so many iterations and research covered, through my    designs i was able to help customers get acquainted with the   app and order as fast as they can while enjoying the process  as they doing it.
                 </p>
             </div>
-            <div class="footer_banner">
+            <div class="footer_banner"> <!-- Bannière de bas de page -->
                 <p>Bon Appétit !!!</p>
             </div>
-            <footer>
+            <footer> <!-- Pied de page -->
                 <img class="img-fluid" src="Images/BellaOlonje_logo.png" alt="image">
                 <div class="social">
                     <img class="img-fluid" src="Images/twitter.png" alt="image">
@@ -142,7 +143,6 @@
             </footer>
         </main>
 
-
-        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.min.js"></script> <!-- Script JS BootStrap -->
     </body>
 </html>

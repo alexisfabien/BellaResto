@@ -43,7 +43,7 @@ nav {
 .my_nav {
     display: flex;
     justify-content: space-between;
-    margin-right: 2%;
+    margin-right: 4%;
 }
 
 .my_nav a {
@@ -141,7 +141,6 @@ button  {
     margin-right: 20px;
     font-size: 24px;
     font-weight: 700;
-
     background-color: #FA4A0C;
     text-decoration: none;
     border-radius:30px ;
@@ -150,6 +149,14 @@ button  {
 
 button a {
     text-decoration: none;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: block;
+    padding-top: 8%;
+}
+
+button a:hover {
     color: white;
 }
 
