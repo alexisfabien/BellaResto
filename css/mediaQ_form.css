@@ -82,7 +82,7 @@
     .delivery1 input, .delivery2 input {
         width: 95%;
     }
-    
+
     /* Bouton "envoyer" */
     .button {
         width: 135px;
@@ -193,6 +193,34 @@
     }
     .banner_title p:nth-child(2) {
         font-size: 47px;
+    }
+
+    /* Partie "Vos Informations" */
+    .InfoUser {
+        width: 95%;
+    }
+    .info1, .info2 {
+        width: 45%;
+    }
+
+    /* Partie "Votre commande" */
+        /* --- Frites --- */
+        .avec_frite, .sans_frite {
+            width: 30%;
+        }
+        /* --- Boissons Desserts --- */
+        .boissons, .dessert {
+            width: 45%;
+        }
+        .boissons_desserts label {
+            width: 50%;
+            font-size: 19px;
+        }
+
+    /* Général */
+    hr {
+        margin-top: 6%;
+        margin-bottom: 6%;
     }
 }
 
