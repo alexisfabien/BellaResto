@@ -77,11 +77,13 @@
         width: 40%;
         text-align: left;
     }
-        /* --- Adresse de livraison --- */
+
+    /* Partie "Adresse de livraison" */
     .delivery1 input, .delivery2 input {
         width: 95%;
     }
-        /* --- Bouton "envoyer"--- */
+    
+    /* Bouton "envoyer" */
     .button {
         width: 135px;
         height: 45px;
@@ -116,6 +118,64 @@
         font-size: 24px;
     }
     .banner_title p:nth-child(2) {
+        font-size: 34px;
+    }
+
+    /* Partie "Vos Informations" */
+    .InfoUser {
+        width: 90%;
+    }
+    .info1, .info2 {
+        width: 45%;
+    }
+
+    /* Partie "Votre commande" */
+        /* --- Panier --- */
+    .order p {
+        padding-right: 0;
+        font-size: 22px;
+        width: 35%;
+    }
+    .panier legend {
+        width: 60%;
+    }
+        /* --- Frites ---*/
+    .frite {
+        display: flex;
+        justify-content: space-around;
+        width: 95%;
+        margin-top: 8%;
+        margin-bottom: 10%;
+    }
+    .avec_frite, .sans_frite {
+        width: 50%;
+    }
+        /* --- Boissons Desserts --- */
+    .boissons_desserts {
+        width: 95%;
+    }
+    .boissons, .dessert {
+        width: 45%;
+    }
+    .boissons_desserts label {
+        width: 50%;
+        font-size: 18px;
+    }
+    .boissons_desserts input[type="number"] {
+        width: 25%;
+    }
+
+    /* Partie "Adresse de livraison" */
+    .delivery1 input, .delivery2 input {
+        width: 95%;
+    }
+
+    /* Général */
+    hr {
+        margin-bottom: 8%;
+        margin-top: 8%;
+    }
+    fieldset legend {
         font-size: 34px;
     }
 }
