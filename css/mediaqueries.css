@@ -41,10 +41,11 @@
         margin-right: 20px;
     }
     .footer_banner {
-        height: ;
+        height: 220px;
     }
     .footer_banner p {
-        align-self: center;
+        align-self: end;
+        font-size: 28px;
     }
 }
 @media all and (min-width: 480px) and (max-width: 768px) {
@@ -90,6 +91,9 @@
     .final_text {
         width: auto;
         margin-right: 20px;
+    }
+    .footer_banner {
+        height: 390px;
     }
     
 }
