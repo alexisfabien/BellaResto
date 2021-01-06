@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body {
+    margin: 0;
+}
+header {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.6fr 1.9fr;
+    height: 156px;
+    align-items: center;
+}
+
+header img {
+    grid-column: 2 / 3;
+}
+
+nav {
+    grid-column: 4 / 5;
+}
+
+.my_collapse {
+    display: flex;
+    justify-content: center;
+}
+
+.my_list_menu {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 8px 0px;
+}
+
+.my_collapse a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color:black;
+    font-weight: 600;
+    text-align: center;
+}
+
+.my_nav {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2%;
+}
+
+.my_nav a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color:black;
+    font-weight: 600;
+}
+
+.my_nav a:first-child {
+    color: chocolate;
+}
+
+.banner_title {
+    height: 500px;
+    background-image: url(../Images/banner.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: white;
+    display: grid;
+    grid-template-rows: 0.5fr 1.5fr;
+    justify-items: center;
+    margin-bottom: 55px;
+}
+
+.banner_title p:first-child {
+    font-size: 28px;
+    align-self: flex-end;
+    margin: 0;
+}
+
+.banner_title p:nth-child(2) {
+    font-size: 58px;
+    margin: 0;
+    text-align: center;
+}
+
+section {
+    height: 670px;
+    display: grid;
+    grid-template: "head head head" "art1 art2 art3";
+    grid-template-rows: 1fr 5fr;
+}
+
+section h1 {
+    grid-area: head;
+    justify-self: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    color: black;
+}
+
+article {
+    border: 3px solid #FA4A0C;
+    height: 490px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    display: grid;
+    grid-template-rows: 3fr 2fr 1fr;
+    padding: 5px;
+    margin: 5px;
+}
+
+article img {
+    justify-self: center;
+    align-self: center;
+
+}
+
+article div p {
+    margin:0;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.article1 {
+    grid-area: art1;
+}
+
+.article2 {
+    grid-area: art2;
+}
+
+.article3 {
+    grid-area: art3;
+}
+
+button  {
+    width: 177px;
+    height: 64px;
+    justify-self: flex-end;
+    margin-right: 20px;
+    font-size: 24px;
+    font-weight: 700;
+
+    background-color: #FA4A0C;
+    text-decoration: none;
+    border-radius:30px ;
+    border: none;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+.my_button_menu {
+    width: 150px;
+    height: 45px;
+    background-color: #FA4A0C;
+    font-size: 20px;
+    border-radius:30px ;
+    border: none;
+    margin-bottom: 8px;
+}
+
+.my_collapse .my_button_menu {
+    font-size: 24px;
+    color: white;
+}
+
+hr {
+    width: 884px;
+    text-align: center;
+    margin-top: 4%%;
+    margin-bottom: 4%;
+    color: #E4E4E4;
+}
+
+.final_text {
+    margin-top: 50px;
+    padding-left: 55px;
+    font-family: 'Poppins', sans-serif;
+    width: 1080px;
+    margin-bottom: 125px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 34px;
+}
+
+.footer_banner {
+    height: 519px; 
+    background-image: url(../Images/footer.png) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+}
+
+.footer_banner p {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color:white;
+    justify-self: center;
+    align-self: end;
+    margin-bottom: 30px;
+}
+
+footer{
+    height: 160px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+footer div {
+    width: 171px;
+    height: 41px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+footer p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: #5C5C5C;
+}

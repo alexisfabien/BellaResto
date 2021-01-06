@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang='fr'>
+    <head>
+        <title> Restaurant Bella Olonje</title>
+        <meta charset='utf-8'>
+        <link rel='stylesheet' href='css/style_contact.css' type='text/css'>
+    </head>
+    <body>
+        <header>
+            <img src="Images/BellaOlonje_logo.png" alt="image">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="index.html#pizza">Pizza</a>
+                <a href="index.html#burgers">Burgers</a>
+                <a href="index.html#salade">Salades</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+        <div class="banner_title">
+            <p>Food App</p>
+            <p>Chez Bella <br> chaque désir s'additionne.</p>
+        </div>
+
+        <main>
+            <form name="contact" action="" method="POST">
+                <fieldset>
+                    <legend> Nous contacter</legend>
+
+                    <div class="info">
+                        <div class="info1">
+                            <label for="Nom">Nom   </label><br>   
+                            <input name="Nom" id="Nom" type="text" placeholder="Nom" size="40"/>
+                            <br><br>
+                            <label for="Téléphone">Téléphone   </label><br>
+                            <input name="Téléphone" id="Téléphone" type="tel" placeholder="Téléphone" size="40"/>
+                            <br><br>
+                            <label for="Société">Société  </label><br>
+                            <input name="Société" id="Société" type="text" placeholder="Société" size="40"/>
+                        </div>
+
+                        <div class="info2">
+                            <label for="Prenom">Prénom   </label><br>
+                            <input name="Prenom" id="Prenom"type="text" placeholder="Prénom" size="40">
+                            <br><br>
+                            <label for="Email">Email  </label><br>
+                            <input name="Email" id="Email" type="email" placeholder="Email" size="40"/>
+                            <br><br>
+                            <label for="Fonction">Fonction  </label><br>
+                            <input name="Fonction" id="Fonction" type="text" placeholder="Fonction" size="40"/>
+                        </div>
+                    </div>
+
+                    <div class="button_up">
+                        <label for="upload">UPLOAD</label>
+                        <input type="file" name="upload" id="upload" class="upload">
+                        <p>Choose your file</p>
+                    </div>
+
+                    <div class="g-recaptcha" data-sitekey="la_clé_du_site"></div>
+                    <br>
+                    <div class="objet">
+                        <label for="objet"> Objet :</label><br>
+                        <select name="objet" id="objet">
+                            <option value="compte"> Compte </option>
+                            <option value="commande"> Commande </option>
+                            <option value="paiement"> Paiement </option>
+                            <option value="fid"> Fidélité </option>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="message">
+                        <label for="message"> Message :</label><br>
+                        <textarea name="message" id="message" cols="100" rows="10"></textarea>
+                    </div>
+                    <br><br>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2628.8304080971516!2d2.433056315671813!3d48.78512787928038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67344bd2d57f1%3A0x2a84a845271b523a!2sAFPA!5e0!3m2!1sfr!2sfr!4v1609620083906!5m2!1sfr!2sfr" width="650" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </fieldset>
+
+                <div class="bouton">
+                    <input type="submit" class="button" value="Envoyer">
+                </div>
+            </form>
+
+
+        </main>
+
+        <script src="https://www.google.com/recaptcha/api.js"></script>
+    </body>
+</html>

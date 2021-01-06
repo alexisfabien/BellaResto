@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang='fr'>
+    <head>
+        <title> Restaurant Bella Olonje</title>
+        <meta charset='utf-8'>
+        <link rel='stylesheet' href='css/style_form.css' type='text/css'>
+    </head>
+    <body>
+        <header>
+            <img src="Images/BellaOlonje_logo.png" alt="image">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="index.html#pizza">Pizza</a>
+                <a href="index.html#burgers">Burgers</a>
+                <a href="index.html#salade">Salades</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+        <div class="banner_title">
+            <p>Food App</p>
+            <p>Chez Bella <br> chaque désir s'additionne.</p>
+        </div>
+        <main id="container">
+            <form name="infos" action="" method="post">
+                <fieldset class="info">
+                    <legend>Vos Informations</legend>
+                    <div class="InfoUser">
+                        <div class="info1">
+                            <label for="Nom">Nom   </label><br>   
+                            <input name="Nom" id="Nom" type="text"  placeholder="Nom" size="40"/>
+                            <br><br>
+                            <label for="Prenom">Prénom   </label><br>
+                            <input name="Prenom" id="Prenom"type="text"         placeholder="Prénom" size="40">
+                        </div>
+
+                        <div class="info2">
+                            <label for="Téléphone">Téléphone   </label><br>
+                            <input name="Téléphone" id="Téléphone" type="tel"       placeholder="Téléphone" size="40"/>
+
+                            <label for="Email">Email  </label><br>
+                            <input name="Email" id="Email"      type="email"placeholder="Email" size="40"/>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <hr>
+
+                <fieldset class="order">
+                    <div class="panier">
+                        <legend>Votre commande</legend>
+                        <p>Pizza 4 Fromages</p>
+                    </div>
+                    <fieldset class="supplement">
+                        <legend>Suppléments</legend>
+                        <div class="ing_supp">
+                            <label for="ingredients">Ingrédients</label><br>
+                            <select name="ingredients" id="ingredients">
+                                <option value="Fromage" selected="selected"> Fromage </option>
+                                <option value="Pepperoni">Pepperoni</option>
+                                <option value="Oeuf">Oeuf</option>
+                                <option value="ViandeHachée">Viande Hachée</option>
+                                <option value="Merguez">Merguez</option>
+                                <option value="Olives">Olives</option>
+                            </select>
+
+                            <br><br>
+
+                            <label for="ingredients1">Ingrédients</label><br>
+                            <select name="ingredients1" id="ingredients1">
+                                <option value="Fromage" selected="selected"> Fromage </option>
+                                <option value="Pepperoni">Pepperoni</option>
+                                <option value="Oeuf">Oeuf</option>
+                                <option value="ViandeHachée">Viande Hachée</option>
+                                <option value="Merguez">Merguez</option>
+                                <option value="Olives">Olives</option>
+                            </select>
+
+                            <br><br>
+
+                            <label for="ingredients2">Ingrédients</label><br>
+                            <select name="ingredients2" id="ingredients2">
+                                <option value="Fromage" selected="selected"> Fromage </option>
+                                <option value="Pepperoni">Pepperoni</option>
+                                <option value="Oeuf">Oeuf</option>
+                                <option value="ViandeHachée">Viande Hachée</option>
+                                <option value="Merguez">Merguez</option>
+                                <option value="Olives">Olives</option>
+                            </select>
+
+                            <br><br>
+
+                            <label for="ingredients3">Ingrédients</label><br>
+                            <select name="ingredients3" id="ingredients3">
+                                <option value="Fromage" selected="selected"> Fromage </option>
+                                <option value="Pepperoni">Pepperoni</option>
+                                <option value="Oeuf">Oeuf</option>
+                                <option value="ViandeHachée">Viande Hachée</option>
+                                <option value="Merguez">Merguez</option>
+                                <option value="Olives">Olives</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div class="quantite_ing">
+                            <label for="quantite">Quantité</label><br>
+                            <input type="number" name="quantite" id="quantite">
+                            <br><br>
+                            <label for="quantite1">Quantité</label><br>
+                            <input type="number" name="quantite1" id="quantite1">
+                            <br><br>
+                            <label for="quantite2">Quantité</label><br>
+                            <input type="number" name="quantite2" id="quantite2">
+                            <br><br>
+                            <label for="quantite3">Quantité</label><br>
+                            <input type="number" name="quantite3" id="quantite3">
+                            <br><br>
+                        </div>
+                    </fieldset>
+                    <div class="frite">
+                        <div class="avec_frite">
+                            <input type="radio" name="frite" id="avec_frite"    checked><label for="avec_frite">Avec frites</label><br/>
+                        </div>
+                        <div class="sans_frite">
+                            <input type="radio" name="frite"    id="sans_frite"><label for="sans_frite">Sans frites</label>
+                        </div>
+                    </div>
+                    
+                    <div class="boissons_desserts">
+                        <fieldset class="boissons">
+                            <legend>Boissons</legend>
+                            <div class="coca">
+                                <input type="checkbox" name="boisson" id="coca" checked>
+                                <label for="coca">Coca </label>
+                                <input type="number" name="boisson" />
+                            </div>
+                            <div class="fanta">
+                                <input type="checkbox" name="boisson" id="fanta">
+                                <label for="fanta">Fanta </label>
+                                <input type="number" name="boisson" >
+                            </div>
+                            <div class="eau">
+                                <input type="checkbox" name="boisson" id="eau">
+                                <label for="eau">Eau </label>
+                                <input type="number" name="boisson">
+                            </div>
+                        </fieldset>
+                        <fieldset class="dessert">
+                            <legend>Desserts</legend>
+                            <div class="tiramisu">
+                                <input type="checkbox" name="dessert" id="tiramisu">
+                                <label for="tiramisu">Tiramisu</label>
+                                <input type="number" name="dessert">
+                            </div>
+                            <div class="cheesecake">
+                                <input type="checkbox" name="dessert" id="cheesecake">
+                                <label for="cheesecake">Cheesecake</label>
+                                <input type="number" name="dessert">
+                            </div>
+                            <div class="tarte">
+                                <input type="checkbox" name="dessert" id="tarte">
+                                <label for="tarte">Tarte à la fraise</label>
+                                <input type="number" name="dessert" >
+                            </div>
+                        </fieldset>
+                    </div>
+                </fieldset>
+
+                <hr>
+
+                <fieldset class="delivery">
+                    <legend>Adresse de livraison</legend>
+
+                    <div class="delivery1">
+                        <label for="name">Nom </label><br>   
+                        <input name="name" id="name" type="text" placeholder="Nom"  size="40"/>
+                        <br><br>
+
+                        <label for="firstname">Prénom </label><br>   
+                        <input name="firstname" id="firstname" type="text"  placeholder="Prénom" size="40"/>
+                        <br><br>
+
+                        <label for="phone">Téléphone </label><br>   
+                        <input name="phone" id="phone" type="tel"   placeholder="06XXXXXXXX" size="40"/>
+                        <br><br>
+
+                        <label for="email">Email </label><br>   
+                        <input name="email" id="email" type="email" placeholder="@xxxx.xxx" size="40"/>
+                        <br><br>
+                    </div>
+
+                    <div class="delivery2">
+                        <label for="adress">Adresse </label><br>   
+                        <input name="adress" id="adress" type="text"    placeholder="Adresse" size="40"/>
+                        <br><br>
+
+                        <label for="post_code">Code Postal </label><br>   
+                        <input name="post_code" id="post_code" type="text" maxlength="5" placeholder="00000" size="40"/>
+                        <br><br>
+
+                        <label for="city">Ville </label><br>   
+                        <input name="city" id="city" type="text" placeholder="Ex: Paris" size="40"/>
+                        <br><br>
+
+                        <label for="country">Pays </label><br>   
+                        <input name="country" id="country" type="text"  placeholder="France" size="40"/>
+                        <br><br>
+                    </div>
+                </fieldset>
+
+                <div class="bouton">
+                    <input type="submit" class="button" value="Envoyer">
+                </div>
+
+            </form>
+        </main>
+        
+
+
+    </body>
+</html>

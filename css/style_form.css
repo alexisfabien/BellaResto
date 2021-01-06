@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;300&display=swap');
+
+body {
+    margin: 0;
+}
+header {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1.5fr;
+    height: 156px;
+    align-items: center;
+}
+
+header img {
+    grid-column: 2 / 3;
+}
+
+nav {
+    grid-column: 4 / 5;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color:black;
+    font-weight: 600;
+}
+
+nav a:first-child {
+    color: chocolate;
+}
+
+.banner_title {
+    height: 530px;
+    background-image: url(../Images/banner.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: white;
+    display: grid;
+    grid-template-rows: 100px 150px;
+    justify-items: center;
+
+}
+
+.banner_title p:first-child {
+    font-size: 28px;
+    align-self: flex-end;
+    margin: 0;
+}
+
+.banner_title p:nth-child(2) {
+    font-size: 58px;
+    margin: 0;
+    text-align: center;
+}
+
+form {
+    padding: 15px;
+    margin: 25px;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset legend {
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.order fieldset legend {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+label {
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+input {
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+select {
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.InfoUser {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 200px;
+}
+
+.InfoUser label {
+    margin-top: 50px;
+}
+
+.info1 {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-around;
+}
+
+.info2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 150px;
+}
+
+hr {
+    width: 885px;
+    text-align: center;
+    color:#E4E4E4;
+    margin-bottom: 65px;
+    margin-top: 85px;
+}
+
+.order {
+    display: flex;
+    flex-direction: column;
+}
+
+.panier {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order p {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FA4A0C;
+    padding-right: 75px;
+}
+
+.supplement {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 3%;
+}
+
+.ing_supp, .quantite_ing {
+    margin-top: 20px;
+    width: 45%;
+}
+
+.ing_supp select, .quantite_ing input {
+    font-size: 17px;
+}
+
+.frite {
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.avec_frite, .sans_frite {
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+
+input[type="radio"] {
+    -moz-appearance: none;
+    -webkit-appearance:none;
+    border: 2px solid #C5C7CD;
+    border-radius: 100%;
+}
+
+input:focus {
+    outline:none;
+}
+
+#avec_frite, #sans_frite {
+    width: 35px;
+    height: 35px;
+    padding: 5px 3.5px 4px 4.5px;
+    margin-right: 10px;
+    margin-bottom: 12px;
+}
+
+input[type=radio]:checked{
+    border: 2px solid #3751FF;
+    background-color: #3751FF;
+}
+
+input[type=radio]:checked{
+    content:url(../Images/check.png);
+}
+
+.boissons_desserts {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.boissons, .dessert {
+    width: 40%;
+}
+
+input[type=checkbox]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance:none;
+    width:30px;
+    height:30px;
+    margin: 0;
+}
+
+.boissons_desserts input[type="number"] {
+    margin: 0;
+    width: 35%;
+}
+
+.boissons_desserts legend {
+    margin-bottom: 15px;
+}
+
+input[type=checkbox]:not(:checked){
+    background-color: #C4C4C4;
+}
+
+input[type=checkbox]:checked{
+    background-color:#2BAF1F;
+}
+
+.coca, .fanta, .eau, .tiramisu, .cheesecake, .tarte {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px;
+}
+
+.boissons_desserts label {
+    width: 200px;
+}
+
+.delivery {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.delivery1 {
+    width: 45%;
+    margin-top: 3%;
+}
+
+.delivery2 {
+    width: 45%;
+    margin-top: 3%;
+}
+
+.bouton {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    margin-top: 8%;
+}
+
+.button {
+    border:1px solid #FA4A0C;
+    border-radius: 25px 25px;
+    box-shadow: 1px 1px 5px black;
+    background-color: #FA4A0C;
+    color:white;
+    width: 165px;
+    height: 60px;
+    font-size: 24px;
+}
