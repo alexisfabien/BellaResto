@@ -3,19 +3,38 @@
     <head>
         <title> Restaurant Bella Olonje</title>
         <meta charset='utf-8'>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel='stylesheet' href='css/style_form.css' type='text/css'>
+        <link rel='stylesheet' href='css/mediaQ_form.css' type='text/css'>
     </head>
     <body>
         <header>
             <img src="Images/BellaOlonje_logo.png" alt="image">
             <nav>
-                <a href="index.html">Home</a>
-                <a href="index.html#pizza">Pizza</a>
-                <a href="index.html#burgers">Burgers</a>
-                <a href="index.html#salade">Salades</a>
-                <a href="contact.html">Contact</a>
+                <div class="my_nav">
+                    <a href="index.html">Home</a>
+                    <a href="index.html#pizza">Pizza</a>
+                    <a href="index.html#burgers">Burgers</a>
+                    <a href="index.html#salade">Salades</a>
+                    <a href="contact.html">Contact</a>
+                </div>
             </nav>
         </header>
+        <div class="container my_collapse">
+            <div class="">
+                <a class="btn my_button_menu" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Menu
+                </a>
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body my_list_menu">
+                        <a href="index.html#pizza">Pizza</a><br>
+                        <a href="index.html#burgers">Burgers</a><br>
+                        <a href="index.html#salade">Salades</a><br>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="banner_title">
             <p>Food App</p>
             <p>Chez Bella <br> chaque désir s'additionne.</p>
@@ -214,6 +233,6 @@
         </main>
         
 
-
+        <script src="js/bootstrap.min.js"></script>
     </body>
 </html>

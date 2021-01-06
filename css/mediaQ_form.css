@@ -1,0 +1,144 @@
+@media all and (max-width: 480px) {
+    /* NavBar */
+    .my_nav {
+        display: none;
+    }
+    header {
+        display: flex;
+        justify-content: center;
+        height: 110px;
+    }
+
+    /* Bannière */
+    .banner_title {
+        height: 220px;
+        margin-bottom: 2%;
+    }
+    .banner_title p:first-child {
+        font-size: 18px;
+        align-self: center
+    }
+    .banner_title p:nth-child(2) {
+        font-size: 26px;
+    }
+
+    /* Partie "Vos Informations" */
+    .InfoUser {
+        flex-direction: column;
+        height: auto;
+        width: 80%;
+    }
+    .info1, .info2 {
+        height: auto;
+        width: auto;
+    }
+    .InfoUser label {
+        margin-top: 2%;
+    }
+
+    /* Partie "Votre commande" */
+        /* --- Panier --- */
+    .panier {
+        flex-direction: column;
+    }
+    .order p {
+        font-size: 22px;
+    }
+        /* --- Supp --- */
+    .quantite_ing input {
+        width: 60%;
+    }
+    .quantite_ing {
+        text-align: center;
+    }
+        /* --- Frites --- */
+    .frite {
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        margin-top: 8%;
+        margin-bottom: 10%;
+    }
+    .avec_frite, .sans_frite {
+        width: 45%;
+    }
+    #avec_frite, #sans_frite {
+        width: 30px;
+        height: 30px;
+    }
+        /* --- Boissons Desserts --- */
+    .boissons_desserts {
+        flex-direction: column;
+    }
+    .boissons, .dessert {
+        width: auto;
+    }
+    .boissons_desserts label {
+        width: 40%;
+        text-align: left;
+    }
+        /* --- Adresse de livraison --- */
+    .delivery1 input, .delivery2 input {
+        width: 95%;
+    }
+        /* --- Bouton "envoyer"--- */
+    .button {
+        width: 135px;
+        height: 45px;
+        font-size: 20px;
+    }
+
+    /* Général (titres, polices) */
+    fieldset legend {
+        font-size: 30px;
+    }
+    label {
+        font-size: 18px;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    /* NavBar */
+    .my_nav {
+        display: none;
+    }
+    header {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Bannière */
+    .banner_title {
+        height: 270px;
+        margin-bottom: 0;
+    }
+    .banner_title p:first-child {
+        font-size: 24px;
+    }
+    .banner_title p:nth-child(2) {
+        font-size: 34px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1200px) {
+    /* NavBar */
+    .my_collapse {
+        display: none;
+    }
+
+    /* Bannière */
+    .banner_title {
+        height: 390px;
+        margin-bottom: 25px;
+    }
+    .banner_title p:nth-child(2) {
+        font-size: 47px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    /* NavBar */
+    .my_collapse {
+        display: none;
+    }
+}

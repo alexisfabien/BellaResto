@@ -7,7 +7,7 @@ body {
 }
 header {
     display: grid;
-    grid-template-columns: 0.5fr 1fr 1fr 1.5fr;
+    grid-template-columns: 0.5fr 1fr 0.6fr 1.9fr;
     height: 156px;
     align-items: center;
 }
@@ -18,11 +18,50 @@ header img {
 
 nav {
     grid-column: 4 / 5;
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
 }
 
-nav a {
+.my_collapse {
+    display: flex;
+    justify-content: center;
+}
+
+.my_list_menu {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 8px 0px;
+}
+
+.my_collapse a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color:black;
+    font-weight: 600;
+    text-align: center;
+}
+
+.my_button_menu {
+    width: 150px;
+    height: 45px;
+    background-color: #FA4A0C;
+    font-size: 20px;
+    border-radius:30px ;
+    border: none;
+    margin-bottom: 8px;
+}
+
+.my_collapse .my_button_menu {
+    font-size: 24px;
+    color: white;
+}
+
+.my_nav {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2%;
+}
+
+.my_nav a {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
@@ -30,7 +69,7 @@ nav a {
     font-weight: 600;
 }
 
-nav a:first-child {
+.my_nav a:first-child {
     color: chocolate;
 }
 
@@ -43,7 +82,7 @@ nav a:first-child {
     font-weight: 700;
     color: white;
     display: grid;
-    grid-template-rows: 100px 150px;
+    grid-template-rows: 1fr 3fr;
     justify-items: center;
 
 }
@@ -73,6 +112,7 @@ fieldset legend {
     font-family: 'Poppins', sans-serif;
     font-size: 44px;
     font-weight: 600;
+    float: none;
 }
 
 .order fieldset legend {
@@ -132,8 +172,8 @@ hr {
     width: 885px;
     text-align: center;
     color:#E4E4E4;
-    margin-bottom: 65px;
-    margin-top: 85px;
+    margin-bottom: 10%;
+    margin-top: 10%;
 }
 
 .order {
@@ -168,6 +208,10 @@ hr {
 
 .ing_supp select, .quantite_ing input {
     font-size: 17px;
+}
+
+.quantite_ing input {
+    width: 55%;
 }
 
 .frite {
